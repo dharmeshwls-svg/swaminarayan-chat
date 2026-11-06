@@ -1,0 +1,16 @@
+Swaminarayan Sampradaya library chat (Granth) - macOS
+======================================================
+
+1. Install Homebrew if you do not have it:  https://brew.sh
+2. Open Terminal in this folder and run:
+
+       chmod +x granth_setup.sh
+       ./granth_setup.sh
+
+3. Put your books in ~/GranthBooks (keep it outside Documents, Desktop and Downloads).
+4. Library chat: http://localhost:8000      Admin page: http://localhost:8001 (this Mac only)
+   The admin token is printed at the end of setup.
+
+Later:  ~/granth/granth_setup.sh  status | health | logs | open | admin | restart | ai | update | rollback | uninstall
+
+Documentation: docs/ folder, and Granth-Manual.pdf (everything in one printable file).
